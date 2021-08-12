@@ -4,7 +4,7 @@ These files represent a decomposition of the 6,355 kanji from JIS X 0208-1997 in
 
 They are a Unicode / JSON conversion of the EDRDG's [RADKFILE/KRADFILE](https://www.edrdg.org/krad/kradinf.html).
 
-## Files:
+## Files
 - krad_components.json - List of the 253 components with their respective stroke count.
 - krad.json - List of the 6,355 kanji and their respective components.
 - possible_groups.json - List of all possible combinations of components 
@@ -13,6 +13,7 @@ They are a Unicode / JSON conversion of the EDRDG's [RADKFILE/KRADFILE](https://
 
 Since JIS X 0208 doesn't contain all the components as separate characters (e.g. ⺅ does not exist as its own character in JIS X 0208), the original files used substitutes for these components. Since Unicode does contain all the components as separate characters these substitutes have been replaced as follows:
 
+```
 化 -> ⺅
 个 -> 𠆢
 并 -> 丷
@@ -34,6 +35,7 @@ Since JIS X 0208 doesn't contain all the components as separate characters (e.g.
 初 -> ⻂
 買 -> ⺲
 滴 -> 啇
+```
 
 # Copyright Notice
 These files are based on the EDRG's RADKFILE/KRADFILE project which is made available under a Creative Commons Attribution-ShareAlike Licence (V3.0).
